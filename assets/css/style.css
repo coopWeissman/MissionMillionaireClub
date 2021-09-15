@@ -425,6 +425,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 5px;
   transition: 0.5s;
   margin-top: 30px;
+  margin-bottom: 50px;
   color: #fff;
   background: #04a96d;
 }
@@ -434,14 +435,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .icon-boxes {
-  margin-top: 100px;
+  margin-top: 0px;
 }
 
 #hero .icon-box {
   padding: 50px 30px;
-  margin-top: 50px;
   position: relative;
   overflow: hidden;
+  margin-top: 50px;
   background: #fff;
   box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
   transition: all 0.3s ease-in-out;
@@ -490,6 +491,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 1024px) {
   #hero {
+    margin:0px;
     background-attachment: fixed;
   }
 }
@@ -506,14 +508,26 @@ h1, h2, h3, h4, h5, h6 {
   }
   #hero h1 {
     font-size: 28px;
-    line-height: 36px;
+    line-height: 20px;
   }
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
   }
 }
-
+@media (max-width: 992px) {
+#hero .icon-box {
+  padding: 50px 30px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 0px;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+}
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -1724,6 +1738,7 @@ section {
 @media (max-width: 768px) {
   .breadcrumbs .d-flex {
     display: block !important;
+    margin: 0 !important;
   }
   .breadcrumbs ol {
     display: block;
