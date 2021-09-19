@@ -19,6 +19,8 @@
     }
   }
 
+  AOS.init({disable: 'mobile'});
+
   /**
    * Easy event listener function
    */
