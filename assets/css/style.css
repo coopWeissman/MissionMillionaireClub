@@ -498,7 +498,7 @@ margin-left: 67%;
   border-radius: 8px;
   z-index: 1;
   /* background: url('https://api.iconify.design/simple-icons/tiktok.svg?width=30&height=30') no-repeat center center / contain; */
-  content: url('https://api.iconify.design/simple-icons/tiktok.svg?width=30&height=30');
+  /* content: url('https://api.iconify.design/simple-icons/tiktok.svg?width=30&height=30'); */
 }
 
 #hero .icon-box {
