@@ -500,7 +500,30 @@ margin-left: 67%;
   /* background: url('https://api.iconify.design/simple-icons/tiktok.svg?width=30&height=30') no-repeat center center / contain; */
   /* content: url('https://api.iconify.design/simple-icons/tiktok.svg?width=30&height=30'); */
 }
+/* IFRAME */
 
+.containerFRAME {
+  position: relative;
+  overflow: hidden;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 15%;
+  width: 70%;
+  padding-top: 39.375%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  margin-left: "10%";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+/* IFRAME */
 #hero .icon-box {
   padding: 50px 30px;
   position: relative;
@@ -593,6 +616,13 @@ margin-left: 67%;
 }
 #hero .container {
   padding-top: 0px;
+}
+.containerFRAME {
+  position: relative;
+  overflow: hidden;
+  margin-left: 0%;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 }
 /*--------------------------------------------------------------
